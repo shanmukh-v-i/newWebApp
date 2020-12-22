@@ -28,7 +28,8 @@ public class ServletEx extends HttpServlet {
         // Writing the message on the web page      
         PrintWriter out = response.getWriter();      
         out.println("<h1>" + mymsg + "</h1>");      
-        out.println("<p>" + "Hello Friends!" + "</p>");   
+        out.println("<p>" + "Hello Friends!" + "</p>");  
+        out.println("<p>" + "Welcome To Jenkins" + "</p>");
     }
     public void destroy() 
     {      
